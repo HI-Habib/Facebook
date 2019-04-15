@@ -36,7 +36,8 @@ a:hover{
 .input-text-group>input[type=text],.input-text-group>input[type=password]{
 	height: 25px;
 	border: 1px solid black;
-	margin-top: 3px
+	margin-top: 3px;
+	width: 143px
 }
 .input-text-group-reg>input[type=text],.input-text-group-reg>input[type=password],.input-text-group-reg>input[type=email]{
 	border: 1px solid #bdc7d8;
