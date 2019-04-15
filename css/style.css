@@ -1,0 +1,236 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+a{
+	color: #365899;
+	text-decoration: none
+}
+a:hover{
+	text-decoration: underline
+}
+.float-left{
+	float: left!important
+}
+.float-right{
+	float: right!important
+}
+.float-none{
+	float: none!important;
+}
+.text-1{
+	font-size: 1.2rem;
+}
+.text-white{
+	color: #ffffff;
+}
+.input-text-group>label{
+	display:block;
+	font-size: 12px;
+	font-family: tahoma
+}
+.img-fluid{
+	max-width: 100%
+}
+.input-text-group>input[type=text],.input-text-group>input[type=password]{
+	height: 25px;
+	border: 1px solid black;
+	margin-top: 3px
+}
+.input-text-group-reg>input[type=text],.input-text-group-reg>input[type=password],.input-text-group-reg>input[type=email]{
+	border: 1px solid #bdc7d8;
+	height: 40px;
+	width: 100%;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 0 15px
+}
+.ml-1{
+	margin-left: 0.3rem
+}
+.ml-2{
+	margin-left: 0.6rem
+}
+.ml-3{
+	margin-left: 0.9rem
+}
+.mt-1{
+	margin-top: 0.3rem
+}
+.mt-2{
+	margin-top: 0.6rem
+}
+.mt-3{
+	margin-top: 0.9rem
+}
+.mt-4{
+	margin-top: 1.3rem
+}
+.mt-5{
+	margin-top: 1.8rem
+}
+.pt-1{
+	padding-top: 0.3rem
+}
+.pt-2{
+	padding-top: 0.6rem
+}
+.pt-3{
+	padding-top: 0.9rem
+}
+.pt-4{
+	padding-top: 1.3rem
+}
+.pt-5{
+	padding-top: 1.8rem
+}
+.pb-1{
+	padding-bottom: 0.3rem
+}
+.pb-2{
+	padding-bottom: 0.6rem
+}
+.pb-3{
+	padding-bottom: 0.9rem
+}
+.pb-4{
+	padding-bottom: 1.3rem
+}
+.pb-5{
+	padding-bottom: 1.8rem
+}
+
+.cb{
+	clear: both
+}
+.container{
+	width: 990px;
+	margin: auto
+}
+.logo_side{
+	width: 60%;
+	padding-top:35px;
+}
+header{
+	background: rgb(59,83,134);
+	background: linear-gradient(90deg, rgba(59,83,134,1) 0%, rgba(62,91,153,1) 82%, rgba(62,91,153,1) 100%);
+	overflow: hidden;
+	padding-bottom:10px;
+}
+.login_side{
+	width: 40%;
+	padding-top: 20px
+}
+.forget{
+	margin-top: 5px;
+	display: block;
+	margin-left: 158px;
+	color: #9cb4d8;
+	font-family: tahoma;
+	text-decoration: none;
+	font-size: 12px
+}
+.forget:hover{
+	text-decoration: underline
+}
+.submit-login{
+	background: #4267b2;
+	border: 1px solid #29487d;
+	padding: 3px 6px;
+	border-radius:2px;
+	margin-top: 17px;
+	font-weight: bold
+}
+.submit-login:hover{
+	background: #365899;
+}
+.body{
+	background: rgb(252,252,252);
+	background: linear-gradient(180deg, rgba(252,252,252,1) 15%, rgba(197,206,233,1) 100%); 
+	overflow: hidden;
+	font-family: tahoma;
+	font-size: 12px
+}
+h1{
+	font-family: tahoma;
+	font-size:35px;
+	color: #333
+}
+.small{
+	font-size: 20px;
+	color: #333;
+	font-family: tahoma
+}
+h2{
+	color: #0e385f;
+	max-width:80%
+}
+.overview{
+	width: 60%;
+}
+.reg{
+	width: 40%
+}
+.reg-footer>p{
+	color: #777;
+	font-size: 11px;
+	font-family: tahoma;
+	line-height: 150%
+}
+.full-name{
+	width: 100%;
+}
+.name{
+	width: 49%
+}
+select{
+	border: 1px solid #bdc7d8;
+	width: 20%;
+	height: 30px;
+	font-size: 15px;
+	margin:0;
+	padding:0
+}
+.gender>span>label{
+	font-size: 18px;
+	margin-left: 5px
+}
+.gender>span:last-child{
+	margin-left:5%
+}
+strong{
+	color: #777
+}
+.d-block{
+	display: block
+}
+.reg>form>input[type=submit]{
+	background: rgb(103,174,85);
+	background: linear-gradient(180deg, rgba(103,174,85,1) 0%, rgba(87,136,67,1) 100%); 
+	padding: 7px 80px;
+	font-size: 20px;
+	border: none;
+	border-top: 3px solid #a9db95;
+	border-radius: 6px;
+	cursor: pointer;
+	text-shadow: -3px 3px 2px #6b6b6b
+}
+ul{
+	padding: 0px
+}
+li{
+	list-style: none;
+	float: left;
+	margin-right: 15px;
+	font-size: 14px;
+	box-sizing:border-box;
+}
+.btn{
+	padding: 0px 5px;
+	border: 1px solid #a8a8a8;
+	background: #cecece;
+}
+.btn:hover{
+	text-decoration: none
+}
