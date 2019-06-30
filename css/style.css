@@ -3,6 +3,9 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+body{
+	min-width: 1348px!important;
+}
 a{
 	color: #365899;
 	text-decoration: none
